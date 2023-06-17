@@ -1,0 +1,19 @@
+.nav-container {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
+.nav-left {
+  height: 100px;
+  width: 50%;
+  background-color: red;
+  float: left;
+  display: inline-block;
+}
+.nav-right {
+  height: 100px;
+  width: 50%;
+  background-color: green;
+  display: flex;
+  display: inline-block;
+}
