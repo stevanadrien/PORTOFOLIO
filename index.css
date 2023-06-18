@@ -16,8 +16,10 @@ html {
   a {
     font-size: 3px;
   }
-  .card2 {
+  .card2,
+  .card1 {
     height: 500%;
+    width: 20%;
   }
 }
 @media (max-width: 480px) {
@@ -32,8 +34,10 @@ html {
   a {
     font-size: 3px;
   }
-  .card2 {
+  .card2,
+  .card1 {
     height: 500%;
+    width: 20%;
   }
 }
 @media (max-width: 600px) {
@@ -46,8 +50,10 @@ html {
   h6 {
     font-size: 5px;
   }
-  .card2 {
-    height: 150%;
+  .card2,
+  .card1 {
+    height: 500%;
+    width: 20%;
   }
 }
 @media (max-width: 720px) {
