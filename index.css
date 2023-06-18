@@ -4,6 +4,22 @@ html {
   font-family: "Noto Sans", sans-serif;
   height: 100rem;
 }
+@media (max-width: 200px) {
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  i,
+  a {
+    font-size: 3px;
+  }
+  .card2 {
+    height: 500%;
+  }
+}
 @media (max-width: 480px) {
   a,
   h1,
@@ -11,8 +27,13 @@ html {
   h3,
   h4,
   h5,
-  h6 {
-    font-size: 10px;
+  h6,
+  i,
+  a {
+    font-size: 3px;
+  }
+  .card2 {
+    height: 500%;
   }
 }
 @media (max-width: 600px) {
@@ -23,7 +44,10 @@ html {
   h4,
   h5,
   h6 {
-    font-size: 15px;
+    font-size: 5px;
+  }
+  .card2 {
+    height: 150%;
   }
 }
 @media (max-width: 720px) {
@@ -35,5 +59,8 @@ html {
   h5,
   h6 {
     font-size: 15px;
+  }
+  .card2 {
+    height: 150%;
   }
 }
