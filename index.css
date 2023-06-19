@@ -2,7 +2,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Noto Sans", sans-serif;
-  height: 100rem;
+  height: 150rem;
 }
 @media (max-width: 200px) {
   a,
@@ -21,6 +21,10 @@ html {
     height: 500%;
     width: 20%;
   }
+  .card-container {
+    align-items: center;
+    display: block;
+  }
 }
 @media (max-width: 480px) {
   a,
@@ -38,6 +42,11 @@ html {
   .card1 {
     height: 500%;
     width: 20%;
+    display: inline-block;
+  }
+  .card-container {
+    align-items: center;
+    display: inline-block;
   }
 }
 @media (max-width: 600px) {
@@ -54,6 +63,11 @@ html {
   .card1 {
     height: 500%;
     width: 20%;
+    display: inline-block;
+  }
+  .card-container {
+    align-items: center;
+    display: inline-block;
   }
 }
 @media (max-width: 720px) {
