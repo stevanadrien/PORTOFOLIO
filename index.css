@@ -2,7 +2,8 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Noto Sans", sans-serif;
-  height: 150rem;
+  background-color: #f8efe3;
+  color: #262a56;
 }
 @media (max-width: 200px) {
   a,
