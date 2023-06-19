@@ -1,7 +1,7 @@
 .home {
   height: 170rem;
   width: 100%;
-  background-color: rgba(250, 139, 4, 0.959);
+  background-color: rgba(250, 139, 4, 0);
   text-align: center;
   align-items: center;
 }
@@ -46,11 +46,13 @@
   -ms-flex-item-align: auto;
   align-self: auto;
   margin: 5px;
+  padding-bottom: 15px;
 }
 .card2 {
   height: 100%;
   width: 45%;
   margin-left: 20px;
+  padding-bottom: 15px;
   background-color: rgba(90, 243, 2, 0);
   border: 5px solid black;
   border-radius: 40px;
@@ -79,4 +81,77 @@
   color: black;
   font-weight: bold;
   margin: 10px;
+}
+.project-container {
+  height: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0);
+  margin-top: 100px;
+  position: absolute;
+}
+.recent {
+  margin-top: 20px;
+}
+.project-row {
+  height: auto;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+.project-1 {
+  background-color: rgba(0, 128, 0, 0);
+  padding: 6px;
+  height: auto;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+.project-2 {
+  background-color: rgba(255, 187, 0, 0);
+  height: 300px;
+  width: 30%;
+}
+.project-3 {
+  background-color: rgba(255, 9, 222, 0);
+  height: 300px;
+  width: 30%;
+}
+.suit-image {
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 0px solid black;
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+}
+.project-title {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
 }
